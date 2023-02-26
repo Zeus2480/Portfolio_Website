@@ -1,71 +1,109 @@
 <template>
    <div class="tw-h-screen tw-w-full tw-p-20">
       <div class="tw-flex tw-h-full">
-         <div
-            class="tw-w-1/2 tw-h-full tw-bg-slate-600 tw-flex tw-justify-center tw-items-center"
-         ></div>
+         <div class="tw-w-1/2">
+            <div>
+               <h1 class="tw-text-6xl tw-mb-8">Technologies I know</h1>
+               <div class="tw-pl-6">
+                  <p class="tw-text-lg">• HTML & CSS</p>
+                  <p class="tw-text-lg">• Tailwind CSS</p>
+                  <p class="tw-text-lg">• JavaScript</p>
+                  <p class="tw-text-lg">• Vue JS</p>
+                  <p class="tw-text-lg">• Node JS</p>
+                  <p class="tw-text-lg">• Figma</p>
+                  <p class="tw-text-lg">• Illustrator</p>
+               </div>
+            </div>
+         </div>
          <div
             class="tw-w-1/2 tw-h-full tw-flex tw-justify-center tw-items-center tw-relative"
          >
             <div class="main">
                <div class="inner-circle">
-                  <div class="circle1"> <img src="../assets/images/adobe-illustrator-seeklogo.com.svg" alt=""></div>
-                  <div class="circle2"><img src="../assets/images/figma-seeklogo.com.svg" alt=""></div>
-                  <div class="circle3"><img src="../assets/images/htmlLogo.svg" alt=""></div>
-                  <div class="circle4"><img src="../assets/images/cssLogo.svg" alt=""></div>
+                  <div class="circle1">
+                     <img
+                        src="../assets/images/adobe-illustrator-seeklogo.com.svg"
+                        alt=""
+                     />
+                  </div>
+                  <div class="circle2">
+                     <img
+                        src="../assets/images/figma-seeklogo.com.svg"
+                        alt=""
+                     />
+                  </div>
+                  <div class="circle3">
+                     <img src="../assets/images/htmlLogo.svg" alt="" />
+                  </div>
+                  <div class="circle4">
+                     <img src="../assets/images/cssLogo.svg" alt="" />
+                  </div>
                </div>
                <div class="outer-circle">
-                  <div class="circle6"><img src="../assets/images/vuejs-seeklogo.com.svg" alt=""></div>
-                  <div class="circle5"><img src="../assets/images/JavascriptLogo.svg" alt=""></div>
-                  <div class="circle7"><img src="../assets/images/tailwindLogo.svg" alt=""></div>
-                  <div class="circle8"><img src="../assets/images/NodeJSLogo.svg" alt=""></div>
+                  <div class="circle6">
+                     <img
+                        src="../assets/images/vuejs-seeklogo.com.svg"
+                        alt=""
+                     />
+                  </div>
+                  <div class="circle5">
+                     <img src="../assets/images/JavascriptLogo.svg" alt="" />
+                  </div>
+                  <div class="circle7">
+                     <img src="../assets/images/tailwindLogo.svg" alt="" />
+                  </div>
+                  <div class="circle8">
+                     <img src="../assets/images/NodeJSLogo.svg" alt="" />
+                  </div>
                </div>
             </div>
          </div>
-        
       </div>
    </div>
 </template>
 
 <style>
-.main{
-    width: 100px;
-    height:100px;
-    border:1px solid #CCC;
-    position:absolute;
-    top:0; bottom:0; left:0;right:0;
-    margin:auto;
-    background-color: aquamarine;
-    border-radius:50%; 
-  }
-  .inner-circle{
-    width: 200px;
-    height:200px;
-    border:1px solid #CCC;
-    /* position:absolute; */
-    margin: 200px;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin:auto;
-    border-radius:50%; 
-    margin: -48px;
-  }
-  .outer-circle{
-    width: 400px;
-    height:400px;
-    border:1px solid #CCC;
-    position:absolute;
-    bottom: -150%;
-    right: -150%;
-    margin:auto;
-    border-radius:50%; 
-  }
+.main {
+   width: 100px;
+   height: 100px;
+   border: 1px solid #ccc;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+   background-color: aquamarine;
+   border-radius: 50%;
+}
+.inner-circle {
+   width: 200px;
+   height: 200px;
+   border: 1px solid #ccc;
+   /* position:absolute; */
+   margin: 200px;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   margin: auto;
+   border-radius: 50%;
+   margin: -48px;
+}
+.outer-circle {
+   width: 400px;
+   height: 400px;
+   border: 1px solid #ccc;
+   position: absolute;
+   bottom: -150%;
+   right: -150%;
+   margin: auto;
+   border-radius: 50%;
+}
 .circle1 {
-    width: 30px;    
-    height: 30px;
-    object-fit: contain;
+   width: 30px;
+   height: 30px;
+   object-fit: contain;
    position: absolute;
    top: 0;
    bottom: 0;
@@ -161,7 +199,7 @@
 }
 @keyframes circle5 {
    0% {
-      transform: rotate(45deg) translate(-200px) rotate(45deg);
+      transform: rotate(45deg) translate(-200px) rotate(-45deg);
    }
    100% {
       transform: rotate(405deg) translate(-200px) rotate(-405deg);
