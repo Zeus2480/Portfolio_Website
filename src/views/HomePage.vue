@@ -1,5 +1,5 @@
 <template>
-   <div class="tw-min-h-screen">
+   <div class="tw-min-h-screen" id="home-page">
       <div class="screen-1">
          <div class="tw-w-full tw-h-full tw-flex tw-p-6">
             <div class="tw-w-1/2 tw-h-full tw-flex">
@@ -46,6 +46,7 @@
       </div> -->
       <about-me></about-me>
       <tech-stack></tech-stack>
+      <contact-me></contact-me>
     <!-- <screen-two></screen-two>
       <screen-three></screen-three> -->
    </div>
@@ -57,6 +58,7 @@ import { VueTyper } from "vue-typer";
 // import ScreenThree from "../components/ScreenThree.vue"
 import AboutMe from "../components/AboutMe.vue";
 import TechStack from "../components/TechStack.vue";
+import ContactMe from "../components/ContactMe.vue";
 export default {
    components: {
     //   Typewriter,
@@ -64,7 +66,8 @@ export default {
       //   ScreenTwo,
       //   ScreenThree
       AboutMe,
-      TechStack
+      TechStack,
+      ContactMe
    },
    data: () => ({
       replace: [
