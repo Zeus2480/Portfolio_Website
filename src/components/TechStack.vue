@@ -101,8 +101,8 @@
    border-radius: 50%;
 }
 .circle1 {
-   width: 30px;
-   height: 30px;
+   width: 40px;
+   height: 40px;
    object-fit: contain;
    position: absolute;
    top: 0;
@@ -124,8 +124,8 @@
 }
 /*4 circles each rotate at 90 degree apart*/
 .circle2 {
-   height: 30px;
-   width: 20px;
+   height: 50px;
+   width: 27.5px;
    position: absolute;
    object-fit: contain;
    top: 0;
@@ -145,8 +145,8 @@
    }
 }
 .circle3 {
-   width: 25px;
-   height: 30px;
+   width: 35px;
+   height: 50px;
    position: absolute;
    top: 0;
    bottom: 0;
@@ -165,8 +165,8 @@
    }
 }
 .circle4 {
-   width: 25px;
-   height: 30px;
+   width: 35px;
+   height: 50px;
    position: absolute;
    top: 0;
    bottom: 0;
@@ -186,8 +186,8 @@
 }
 /*2 rings one outer and one inner each ring has 4 circle separated at 90 degree apart*/
 .circle5 {
-   width: 30px;
-   height: 30px;
+   width: 40px;
+   height: 50px;
    position: absolute;
    top: 0;
    bottom: 0;
@@ -206,8 +206,8 @@
    }
 }
 .circle6 {
-   width: 30px;
-   height: 30px;
+   width: 50px;
+   height: 50px;
    position: absolute;
    top: 0;
    bottom: 0;
@@ -226,8 +226,8 @@
    }
 }
 .circle7 {
-   width: 30px;
-   height: 30px;
+   width: 50px;
+   height: 50px;
    position: absolute;
    top: 0;
    bottom: 0;
@@ -246,8 +246,8 @@
    }
 }
 .circle8 {
-   width: 30px;
-   height: 30px;
+   width: 40px;
+   height: 50px;
    position: absolute;
    top: 0;
    bottom: 0;

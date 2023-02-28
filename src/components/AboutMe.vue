@@ -9,7 +9,7 @@
                </h1>
                <blockquote>
                   <p class="tw-text-white tw-font-semibold tw-text-xl">
-                     "a portfolio for the stars by the rocket of your ambition"
+                     "a portfolio of a star by the rocket of my ambition"
                   </p>
                </blockquote>
             </div>

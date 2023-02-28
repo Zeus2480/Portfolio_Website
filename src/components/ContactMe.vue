@@ -9,7 +9,7 @@
                 <p class="tw-text-white tw-font-medium tw-text-xl">Get in touch! Whether you want to chat about a project, provide feedback, or just say hello, I'd love to hear from you. Feel free to reach out to me directly through my email or social media links below. Looking forward to connecting with you!</p>
             </div>
             <div>
-                <h3 class="tw-mt-6 tw-text-lg tw-text-white"><a href="mailto:siddiqifaizan2480@gmail.com" class="tw-text-white tw-"><img src="" alt="">siddiqifaizan2480@gmail.com</a></h3>
+                <h3 class="tw-mt-6 tw-text-lg tw-text-white"><a href="mailto:siddiqifaizan2480@gmail.com" class="tw-text-white tw-"><img src="" alt="">siddiquifaizan2480@gmail.com</a></h3>
             </div>
             <div class="tw-flex tw-my-12">
             <!-- <a href=""><img class="tw-h-14 tw-mx-4" src="../assets/images/facebook.svg" alt=""></a> -->
