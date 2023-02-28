@@ -1,5 +1,5 @@
 <template>
-   <div class="tw-relative">
+   <div class="tw-relative" id="home-page">
       <div class="tw-bg-black tw-w-full tw-h-24 tw-absolute tw-top-0"></div>
       <div app fixed class="black bg-transparent-black tw-z-10 tw-sticky tw-top-0 ">
          <div class="tw-p-3 tw-flex tw-h-full tw-justify-around tw-w-full">

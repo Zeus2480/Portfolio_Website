@@ -1,5 +1,5 @@
 <template>
-   <div class="tw-min-h-screen" id="home-page">
+   <div class="tw-min-h-screen" >
       <div class="screen-1">
          <div class="tw-w-full tw-h-full tw-flex tw-p-6">
             <div class="tw-w-1/2 tw-h-full tw-flex">
